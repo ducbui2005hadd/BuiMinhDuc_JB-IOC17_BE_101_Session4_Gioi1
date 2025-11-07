@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS students;
-
 CREATE TABLE students (
     id INT PRIMARY KEY,
     full_name VARCHAR(100),
@@ -50,3 +48,4 @@ WHERE full_name LIKE 'Nguyễn%';
 SELECT *
 FROM students
 WHERE birth_year BETWEEN 2001 AND 2003;
+
