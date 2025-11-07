@@ -1,6 +1,3 @@
-DROP TABLE IF EXISTS scholarships;
-DROP TABLE IF EXISTS students;
-
 CREATE TABLE students (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50),
@@ -83,3 +80,4 @@ SELECT *
 FROM students
 ORDER BY gpa DESC
 LIMIT 2 OFFSET 1; 
+
